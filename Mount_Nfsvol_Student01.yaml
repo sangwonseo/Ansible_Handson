@@ -1,5 +1,5 @@
 ---
-- hosts: 49.254.105.77
+- hosts: localhost
   tasks: 
   - name: Install NFS-UTILS package for Client Server
     yum: name=nfs-utils state=present

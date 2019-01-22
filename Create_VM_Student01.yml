@@ -17,7 +17,7 @@
       state: poweredon
       guest_id: '{{ guest_id }}'
       disk:
-      - size_gb: 10
+      - size_gb: 40
         type: thin
         datastore: '{{ vsphere_datastore }}'
       networks:

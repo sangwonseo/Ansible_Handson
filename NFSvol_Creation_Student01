@@ -27,5 +27,3 @@
       password: "{{ password }}"
       policy: default
       space_guarantee: none
-#      https: true
-#      validate_certs: false
